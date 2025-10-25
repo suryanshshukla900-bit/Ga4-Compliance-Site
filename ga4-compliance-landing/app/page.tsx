@@ -14,14 +14,12 @@ export default function Home() {
             Get back conversion modeling, remarketing, and BigQuery data ownership in 14 days—without breaking UK/EEA
             compliance
           </p>
-          <Button
-            size="lg"
-            className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-6 text-lg mb-4"
+          <a
+             href = "mailto:suryanshshukla900@gmail.com"
+            className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-6 text-lg mb-4"
           >
-             onClick={() => window.location.href = "mailto:suryanshshukla900@gmail.com}
-            >
-            Get Free 5-Point Audit
-          </Button>
+           Get Free 5-Point Audit
+      </a>
           <p className="text-sm text-gray-200">Trusted by UK ecommerce & SaaS companies</p>
         </div>
       </section>
