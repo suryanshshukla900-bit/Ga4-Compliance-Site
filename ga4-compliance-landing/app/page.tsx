@@ -18,7 +18,9 @@ export default function Home() {
             size="lg"
             className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-6 text-lg mb-4"
           >
-             <a href="mailto:suryanshshukla900@gmail.com>Get Free 5-Point Audit</a>
+             onClick={() => window.location.href = "mailto:suryanshshukla900@gmail.com}
+            >
+            Get Free 5-Point Audit
           </Button>
           <p className="text-sm text-gray-200">Trusted by UK ecommerce & SaaS companies</p>
         </div>
