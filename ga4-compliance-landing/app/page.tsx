@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="w-full">
       {/* Hero Section */}
-      <section className="w-full bg-gradient-to-r from-blue-900 to-blue-800 py-20 px-4 sm:py-32">
+      <section className="w-full bg-[#1E3A8A] bg-gradient-to-r from-blue-900 to-blue-800 min-h-[50vh] py-20 px-4 sm:px-32">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 text-balance">
             Restore Your Ad Tracking After Consent Mode V2
@@ -18,7 +18,7 @@ export default function Home() {
             size="lg"
             className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-6 text-lg mb-4"
           >
-            Get Free 5-Point Audit
+             <a href="mailto:suryanshshukla900@gmail.com>Get Free 5-Point Audit</a>
           </Button>
           <p className="text-sm text-gray-200">Trusted by UK ecommerce & SaaS companies</p>
         </div>
@@ -138,8 +138,9 @@ export default function Home() {
           <p className="text-sm">Ready to fix your tracking?</p>
           <p className="text-sm">
             Email:{" "}
-            <a href="mailto:your@email.com" className="hover:text-orange-400 transition-colors">
-              your@email.com
+            <a href="mailto:suryanshshukla900@gmail.com" className="hover:text-orange-400 transition-colors">
+              suryanshshukla900@gmail.com        
+              Get Free 5-point audit
             </a>
           </p>
           <p className="text-sm">Serving UK/EEA compliance needs</p>
